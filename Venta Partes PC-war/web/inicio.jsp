@@ -103,8 +103,7 @@
           <section id="empresa">
               <div class="contenido-seccion">
                   <div class="container   ">
-                      <h2 class="mt-5 text-center">Acerca de nuestra Pagina Web</h2>
-                      <p class="lead ">Todo Pc esta enfocado para satisfacer las necesidades de los clientes dandoles seguridad y seriedad en todo momento</p>
+                      <h2 class="mt-5 text-center">Productos mas Vendidos</h2>
                       <div class="row bg-light ">
                         <div class="col-sm-12">
                             <section class="container mt-5 pt-5"> 
@@ -116,9 +115,7 @@
                                     <p class="card-text">El VivoPC K20 es un PC elegante para hogares modernos. Desde su panel delantero en acabado metálico pulido hasta su elegante unidad de alimentación en dorado,
                                         el VivoPC K20 presenta un diseño perfecto  que encaja a la perfección en cualquier habitación de la casa...  </p>
                                      <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                      ver mas informacion 
-                                    </button>
+                                    <a href="#" class="btn btn-primary">Leer Mas</a>
                                    <!-- Modal -->
                                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                       <div class="modal-dialog modal-lg" role="document">
@@ -144,16 +141,13 @@
                                 </div>
                                   
                                 <div class="card">
-                                  <img class="card-img-top img-fluid" src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c04894362.png"  alt="Card image cap">
+                                  <img class="card-img-top img-fluid" src="https://www.pcfactory.cl/public/foto/20448/1_500.jpg?t=1510011785"  alt="Card image cap">
                                   <div class="card-body">
-                                    <h5 class="card-title">HP ProBook Notebook PCs 650 G2</h5>
-                                    <p class="card-text">Equipe a su fuerza laboral con la notebook más configurable y rentable de HP. Implemente tranquilo la HP ProBook 650, que combina compatibilidad con recursos antiguos para brindar estabilidad de largo plazo con seguridad moderna para las empresas actuales.
-                                            Windows 10 Pro u otros sistemas operativos disponibles...</p>
+                                    <h5 class="card-title">Gigabyte® Video AMD Radeon R5 230 1GB GDDR3</h5>
+                                    <p class="card-text">Video AMD Radeon R5 230 1024MB DDR3 La tarjeta de video R5 230 1GB con Boost tiene ahora la última memoria DDR3 frecuencia de reloj de 1066 MHz efectivos, y funciona con una velocidad de reloj de núcleo de 625 MHz. </p>
                                    
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                      ver mas informacion 
-                                    </button>
+                                    <a href="Producto.jsp" class="btn btn-primary">Leer Mas</a>
 
                                     <!-- Modal -->
                                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -189,7 +183,7 @@
                                                 Retroiluminacion Gamer (fan 120mm LED)</p>
                                    <!-- Button trigger modal -->
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                      ver mas informacion 
+                                      Leer Mas 
                                     </button>
 
                                     <!-- Modal -->
