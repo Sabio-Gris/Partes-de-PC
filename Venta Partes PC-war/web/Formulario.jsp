@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>PC Builder-Agregar</title>
     <!-- Bootstrap CSS -->
+    <script type="text/javascript" src="js/Jquery/jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   </head>
     <body>
@@ -21,42 +22,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         
 
-<nav class="navbar navbar-expand-lg  bg-dark navbar-toggleable-md">
-            <a class="navbar-brand" href="#">
-                <img src="C:\Users\casta\Documents\NetBeansProjects\Bootstraps4\web\img\notebooks.jpg" width="40" height="40" class="d-inline-block align-top" alt="">
-                PC Builder
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse " id="navbarToggler">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="categoria.jsp">Categoria</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle mr-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Opciones
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="pc.jsp">PC</a>
-                    <a class="dropdown-item" href="categoria.jsp">Notebook</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="otros.jsp">Otros</a>
-                  </div>
-                </li>
-                
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
-              </form>
-            </div>
-          </nav>
+<div id="navbar">  
+</div>
+<script type="text/javascript">
+    $("#navbar").load("Includes/Navbar.html");
+</script>
 
 
 

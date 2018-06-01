@@ -23,8 +23,7 @@
   </head>
     <body>
         
-<div id="navbar">
-    
+<div id="navbar">  
 </div>
 <script type="text/javascript">
     $("#navbar").load("Includes/Navbar.html");
