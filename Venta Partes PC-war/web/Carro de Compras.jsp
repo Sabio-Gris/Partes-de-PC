@@ -25,9 +25,16 @@
         
 <div id="navbar">  
 </div>
+       
+        
+       
+        <div id="Footer">
+        </div>
 <script type="text/javascript">
     $("#navbar").load("Includes/Navbar.html");
 </script>
-        
+<script type="text/javascript">
+     $("#Footer").load("Includes/Footer.html");
+    </script>
     </body>
 </html>

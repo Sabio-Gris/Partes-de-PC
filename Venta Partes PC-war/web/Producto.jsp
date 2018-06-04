@@ -53,60 +53,13 @@
             </ul>
         </div>
     </div>
-    <section id="footer">
-	 <div class="container bg-dark container-fluid">
-	    <div class="row text-center text-xs-center text-sm-left text-md-left text-dark">
-		<div class="col-xs-12 col-sm-4 col-md-4">
-		    <h5 class="text-white">Enlaces Rapidos</h5>
-			<ul class="list-unstyled quick-links">
-                            <li><a href="inicio.jsp"><i class="fa fa-angle-double-right"></i>Inicio</a></li>
-			    <li><a href="acercade.jsp"><i class="fa fa-angle-double-right"></i>Acerca de</a></li>
-			    <li><a href="terminos.jsp"><i class="fa fa-angle-double-right"></i>Terminos y Condiciones</a></li>
-			    <li><a href="politicas.jsp"><i class="fa fa-angle-double-right"></i>Privacidad y Seguridad</a></li>
-			    <li><a href="https://www.youtube.com/watch?v=cPiGEn1pO6A"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-			</ul>	
-		</div>
-		<div class="col-xs-12 col-sm-4 col-md-4">
-		    <h5 class="text-white">Enlaces Rapidos</h5>
-			<ul class="list-unstyled quick-links">
-                            <li><a href="tiendas.jsp"><i class="fa fa-angle-double-right"></i>Tienda Online</a></li>
-			    <li><a href="comprar.jsp"><i class="fa fa-angle-double-right"></i>Como Comprar</a></li>
-			    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Preguntas Frecuentes</a></li>
-			    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Comenzar</a></li>
-			    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-			</ul>	
-		</div>
-		<div class="col-xs-12 col-sm-4 col-md-4">
-		    <h5 class="text-white">Enlaces Rapidos</h5>
-			<ul class="list-unstyled quick-links">
-                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Inicio</a></li>
-			    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Acerca de</a></li>
-			    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Preguntas Frecuentes</a></li>
-			    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Comenzar</a></li>
-			    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-			</ul>	
-		</div>
-		</div>
-		<div class="row">
-		    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-		        <ul class="list-unstyled list-inline social text-center">
-			    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-			    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-			    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-			    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-			    <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
-			</ul>
-		    </div>
-		    </hr>
-		</div>	
-		    <div class="row">
-		    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-		        <p>National Transaction Corporation is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
-			<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
-                    </div>
-                    </hr>
-                    </div>	
-	</div>
-	</section>
+<div id="Footer">
+        </div>
+<script type="text/javascript">
+    $("#navbar").load("Includes/Navbar.html");
+</script>
+<script type="text/javascript">
+     $("#Footer").load("Includes/Footer.html");
+    </script>
     </body>
 </html>
