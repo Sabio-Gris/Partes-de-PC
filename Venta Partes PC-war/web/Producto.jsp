@@ -37,7 +37,7 @@
             <li class="list-group-item">$XXX.XXX</li>
             <li class="list-group-item">Disponibilidad: 01</li>
             <li class="list-group-item">Cantidad  <input type="number" placeholder="00" name="numCantidad" width="10"></li>
-            <li class="list-group-item"><a href="" class="btn btn-primary">agregar al carro de compras</a></li>
+            <li class="list-group-item"><a href="Carro de Compras.jsp" class="btn btn-primary">agregar al carro de compras</a></li>
         </ul>
     </div>    
     </div>
