@@ -25,6 +25,8 @@
 <script type="text/javascript">
     $("#navbar").load("Includes/Navbar.html");
 </script>
+<div id="navbar">  
+</div>
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
 
